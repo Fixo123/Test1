@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<macro version="1">
+  <name>Free Fire All-in-One</name>
+  <description>Sensitivity auto-set + Aim drag. එකම script එක.</description>
+  <triggers>
+    <trigger type="application_launch" package="com.dts.freefireth" />
+    <trigger type="volume_up" />
+  </triggers>
+  <actions>
+    <!-- BLOCK 1: SENSITIVITY SETTER (App Launch වෙලාවට) -->
+    <action type="if">
+      <constraints>
+        <constraint type="magic_text" string="[trigger_type]" operator="equals" value="application_launch" />
+      </constraints>
+      <actions>
+        <action type="if">
+          <constraints>
+            <constraint type="variable" var="sens_done" operator="not_equals" value="1" />
+          </constraints>
+          <actions>
+            <action type="touch" x="90%" y="8%" duration="100" />
+            <action type="wait" milliseconds="1500" />
+            <action type="touch" x="30%" y="28%" duration="100" />
+            <action type="wait" milliseconds="800" />
+            <action type="swipe" start_x="15%" start_y="45%" end_x="88%" end_y="45%" duration="300" />
+            <action type="wait" milliseconds="200" />
+            <action type="swipe" start_x="15%" start_y="53%" end_x="88%" end_y="53%" duration="300" />
+            <action type="wait" milliseconds="200" />
+            <action type="swipe" start_x="15%" start_y="61%" end_x="83%" end_y="61%" duration="300" />
+            <action type="wait" milliseconds="200" />
+            <action type="swipe" start_x="15%" start_y="69%" end_x="75%" end_y="69%" duration="300" />
+            <action type="wait" milliseconds="500" />
+            <action type="touch" x="10%" y="6%" duration="100" />
+            <action type="wait" milliseconds="500" />
+            <action type="set_variable" var="sens_done" value="1" />
+          </actions>
+        </action>
+      </actions>
+    </action>
+    <!-- BLOCK 2: AIM DRAG (Volume Up ඔබන වෙලාවට) -->
+    <action type="if">
+      <constraints>
+        <constraint type="magic_text" string="[trigger_type]" operator="equals" value="volume_up" />
+      </constraints>
+      <actions>
+        <action type="touch" x="50%" y="50%" duration="50" />
+        <action type="wait" milliseconds="30" />
+        <action type="swipe" start_x="50%" start_y="55%" end_x="50%" end_y="15%" duration="80" />
+        <action type="wait" milliseconds="50" />
+      </actions>
+    </action>
+  </actions>
+  <constraints>
+    <constraint type="screen_on" />
+  </constraints>
+</macro>
