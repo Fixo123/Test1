@@ -1,0 +1,35 @@
+✨ Just a beginner Dev Script ( basic ) 
+</> AL Developer <\>
+
+—( SELF ) 
+I'm a AL Baginnner 
+
+—( 🍷 ) 
+Vinzz ⵢ Xertih ( My teacher )
+Daffa ⵢ Ravange ( My teacher )
+RilzX7 ⵢ Getzu ( My teacher )
+
+—( 🌟 ) 
+Zebuild/Asy ⵢ ( My Friends )
+Barmods ⵢ ( My Friends )
+Radzz ⵢ ( My Friends )
+Vella ⵢ ( My Adek )
+Reya ⵢ ( My Friends )
+Shyo ⵢ ( My Friends )
+Kyami ⵢ ( My Friends )
+Kanzz ⵢ ( My Friends )
+
+I'am a newbie the developer of the script Tr4shVrnx - Evolution, a JavaScript Node.js based tool for finding vulnerability bugs in Whatsapp
+──────────────────
+looking for money | Eksploitasi Function
+
+{
+  "about_AL",
+  "name": "AL",
+  "sklis": ["JavaScript", "html", "Exploit Whatsapp", "Css", "Payhton", "Xml", "app.build"],
+  "Sosials": {
+  "telegram": "@ALXPOZET",
+  "Whatsapp": "6288971089892",
+  "quotes": "don't be afraid to fail before trying",
+    }
+}
